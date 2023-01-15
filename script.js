@@ -8,5 +8,4 @@ submitBtn.addEventListener("click", function(event) {
   const googleMapsUrl = `https://www.google.com/maps/search/${searchQuery}`;
   audioPlayer.play();
   window.open(googleMapsUrl);
-  window.location = googleMapsUrl;
 });
