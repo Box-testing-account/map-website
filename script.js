@@ -7,6 +7,6 @@ submitBtn.addEventListener("click", function(event) {
   const searchQuery = searchBar.value;
   const googleMapsUrl = `https://www.google.com/maps/search/${searchQuery}`;
   audioPlayer.play();
-  window.open(googleMapsUrl)
+  window.open(googleMapsUrl);
   window.location = googleMapsUrl;
 });
